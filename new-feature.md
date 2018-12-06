@@ -22,4 +22,4 @@ Committing the feature:
 - git commit -am "added useful commands"
 
 Finish a new feature
-- git flow feature finish
+- git flow feature finish useful-git-commands
