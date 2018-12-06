@@ -4,13 +4,43 @@ added another thing to our feature
 
 
 # Here are some useful git flow / git commands
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+Initialize git repo in local folder:
+- git init
 
+Add the files in the local dir:
+- git add . 
+
+Unstage if needed:
+- git reset HEAD 'YOUR FILE'
+
+Commit:
+- git commit -am "comment"
+
+Undo commit:
+- git reset --soft HEAD 'tilde sign with no spaces btw. HEAD and 1' 1
+
+Sets the new remote:
+- git remote add origin remote repository URL
+
+Verifies the new remote URL:
+- git remote -v
+
+Push the repo tp remote repo:
+- git push -u origin master
+
+git status
+git log
+
+Some more
+- git push --all
+- git add .
+
+
+=================== GIT FLOW ===========
 Initialize git flow into the project:
 - git flow init -d
 
-Mixed:
-- git push --all
-- git add .
 
 https://danielkummer.github.io/git-flow-cheatsheet/
 
