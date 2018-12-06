@@ -4,6 +4,7 @@ added another thing to our feature
 
 
 # Here are some useful git flow / git commands
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 Initialize git repo in local folder:
 - git init
 
@@ -28,13 +29,18 @@ Verifies the new remote URL:
 Push the repo tp remote repo:
 - git push -u origin master
 
+git status
+git log
+
+Some more
+- git push --all
+- git add .
+
+
 =================== GIT FLOW ===========
 Initialize git flow into the project:
 - git flow init -d
 
-Mixed:
-- git push --all
-- git add .
 
 https://danielkummer.github.io/git-flow-cheatsheet/
 
