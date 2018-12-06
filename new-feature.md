@@ -12,6 +12,9 @@ Mixed:
 - git push --all
 - git add .
 
+https://danielkummer.github.io/git-flow-cheatsheet/
+
+
 Back up the code on github:
 git push --set-upstream origin feature/useful-git-commands
 
@@ -23,3 +26,12 @@ Committing the feature:
 
 Finish a new feature
 - git flow feature finish useful-git-commands
+
+Release:
+- git flow release start 1.0.1
+- git add .
+- git commit -a
+- git flow release finish 1.0.1 (will merge into master and develop)
+- git push origin --all --follow-tags
+
+
