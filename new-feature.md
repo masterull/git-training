@@ -37,7 +37,7 @@ Some more
 - git add .
 
 
-=================== GIT FLOW ===========
+# =================== GIT FLOW ===========
 Initialize git flow into the project:
 - git flow init -d
 
@@ -64,4 +64,22 @@ Release:
 - git flow release finish 1.0.1 (will merge into master and develop)
 - git push origin --all --follow-tags
 
+
+#collaboration
+
+Pull the repo down to begin with
+- git clone
+
+Get the latest online version down and **merge** with local repo
+- git pull origin master
+
+Create a brach with flow (see above)
+
+Do changes, **add** and **commit** in local repo (as usual)
+
+When done, push to online github
+- git push origin branch-or-feature-name
+
+Then go to Github.com and press button to create pull request
+- Pick the branch you wish to have merged using the "Head branch" dropdown.
 
