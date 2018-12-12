@@ -78,8 +78,10 @@ Create a brach with flow (see above)
 Do changes, **add** and **commit** in local repo (as usual)
 
 When done, push to online github
-- git push origin branch-or-feature-name
+- git push origin branch-or-feature-name (did not work?)
+- git push origin --all **(worked fine but may be dangerous...)**
 
 Then go to Github.com and press button to create pull request
 - Pick the branch you wish to have merged using the "Head branch" dropdown.
 
+	
