@@ -67,7 +67,7 @@ Release:
 
 #collaboration
 
-Pull the repo down to begin with
+Pull the repo down to **begin** with (if it is not already in local folder)
 - git clone
 
 Get the latest online version down and **merge** with local repo
