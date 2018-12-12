@@ -82,11 +82,9 @@ Then go to Github.com and press button to create pull request
 
 
 **When/if** the pull request leads to a merger with develop it will be **deleted on remote**
+- pull the **remote changes down** to you local repo: *git pull develop*
+- or: *git pull --all*
 - change to develop branch: *git checkout develop*
-- delete feature branch locally with: *git branch -d feature/feature-name*
-
-Pull the remote changes down to you local repo:
-- git pull develop
-- or: git pull --all
+- **delete** feature branch locally with: *git branch -d feature/feature-name*
 
 
